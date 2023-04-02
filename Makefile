@@ -1,8 +1,8 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = main.cpp
+OBJS = main.c
 
 #CC specifies which compiler we're using
-CC = g++
+CC = gcc
 
 #INCLUDE_PATHS specifies the additional include paths we'll need
 INCLUDE_PATHS = -IC:\mingw_dev_lib\include\SDL2
